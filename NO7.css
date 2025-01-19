@@ -1,0 +1,77 @@
+:root {
+  --blue1: #e8f9ff;
+  --blue2: #77cdff;
+  --blue3: #007bff;
+  --hitam: #333;
+  --putih: #fff;
+  --gray: #eeeeee;
+  --gray-lime: #eff3ea;
+  --unggu: #8e44ad;
+  --green: #aeea94;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #77cdff, #8e44ad);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 100vh;
+  color: var(--putih);
+  transition: background-color 0.3s ease;
+}
+
+.login-container {
+  background: var(--putih);
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  color: var(--hitam);
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid var(--gray-lime);
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.login-container button {
+  background: var(--blue2);
+  color: var(--putih);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-container button:hover {
+  background: var(--green);
+}
+
+.login-container a {
+  color: var(--blue2);
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
